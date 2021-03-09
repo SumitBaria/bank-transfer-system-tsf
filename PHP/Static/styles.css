@@ -1,0 +1,74 @@
+body {
+  background-color: rgba(167, 167, 167, 0.1);
+  overflow-x: hidden;
+}
+
+.btn {
+  background: none !important;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  color: rgba(0, 0, 0, 0.986);
+}
+.navbar_main {
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-link,
+.navbar-brand,
+.container__name {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.container__main {
+  background-color: rgba(255, 255, 255, 0.719);
+  margin-top: 100px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center !important;
+  border-radius: 20px;
+}
+
+.container__name {
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn_main {
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.table {
+  background-color: rgb(255, 255, 255);
+  border-color: black;
+}
+
+.form__transfer__to {
+  margin-top: 60px !important;
+}
+
+.form__label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form__option {
+  width: 800px !important;
+  float: right;
+}
+
+.form__amount {
+  margin-top: 60px;
+}
