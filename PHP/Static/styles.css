@@ -29,23 +29,40 @@ body {
 }
 
 .container__main {
-  background-color: rgba(255, 255, 255, 0.719);
+  background-color: linear-gradient(
+    rgba(rgba(167, 167, 167, 0.1)),
+    rgba(rgba(255, 255, 255, 0))
+  );
   margin-top: 100px;
-
+  width: 900px;
+  height: 400px;
   display: flex;
+  object-fit: contain;
 
   align-items: center !important;
   border-radius: 20px;
 }
 
+.index__img {
+  width: 500px;
+  height: 350px;
+}
+
+.container__btns {
+  display: flex;
+  justify-content: center;
+}
+
 .container__name {
   font-size: 30px;
   text-align: center;
+  text-shadow: 1px 1px;
 }
 
 .btn_main {
   display: flex;
   margin-top: 50px;
+  align-self: center;
   flex-direction: column;
 }
 
