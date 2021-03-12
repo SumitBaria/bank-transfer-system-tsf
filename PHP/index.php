@@ -17,12 +17,13 @@
 <?php
   include 'navbar.php';
 ?>
-
+  
   <div class="container container__main">
-  <div>
-      <img src="Images/BankHomeImage.jfif" alt="Bank Image" class="rounded mx-auto d-block" >
+  
+    <div>
+      <img src="Images/BankHomeImage.jfif" alt="Bank Image" class="rounded mx-auto d-block " >
       <h1 class="container__name mt-4">Welcome to Bank Transfer System</h1>
-      <div class="btn_main">
+      <div class="btn_main ">
         <a class="btn btn-lg btn-outline-secondary m-2" href="transfer.php">Make Transaction</a>
         <a class="btn btn-lg btn-outline-secondary m-2" href="transactionhistory.php">Transaction History</a>
       </div>
