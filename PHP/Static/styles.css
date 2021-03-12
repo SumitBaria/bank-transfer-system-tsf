@@ -29,10 +29,10 @@ body {
 }
 
 .container__main {
-  background-color: linear-gradient(
-    rgba(rgba(167, 167, 167, 0.1)),
-    rgba(rgba(255, 255, 255, 0))
-  );
+  background-image: linear-gradient(
+    rgba(167, 167, 167, 0.103),
+    rgba(255, 255, 255, 0.089)
+  ) !important;
   margin-top: 100px;
   width: 900px;
   height: 400px;
@@ -61,7 +61,7 @@ body {
 
 .btn_main {
   display: flex;
-  margin-top: 50px;
+
   align-self: center;
   flex-direction: column;
 }
