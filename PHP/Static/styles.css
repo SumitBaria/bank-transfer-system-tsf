@@ -88,3 +88,7 @@ body {
 .form__amount {
   margin-top: 60px;
 }
+
+.transfer__btn {
+  margin-top: 20px;
+}

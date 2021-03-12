@@ -149,7 +149,7 @@
         <input type="number" name="amount" class="form-control form__option" required>
       </div>
       <div class="form__btn">
-        <button type="submit" name="submit" class="btn btn-primary  btn_main ml-auto">Transfer</button>
+        <button type="submit" name="submit" class="btn btn-secondary transfer__btn ml-auto">Transfer</button>
       </div>
     </form>
   </div>
