@@ -18,7 +18,7 @@
     <h2 class="text-center pt-4 container__name">Transaction History</h2>
     <br>
     <div class="table-responsive mt-3">
-      <table class="table table-hover table-sm table-striped table-condensed table-bordered">
+      <table class="table table-hover table-sm table-striped table-condensed ">
         <thead>
           <tr>
           <th scope="col" class="text-center py-2">Sno.</th>
